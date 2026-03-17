@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
-    double a, b;
-    printf("Digite os catetos do triangulo: ");
-    scanf("%lf %lf", &a, &b);
-    printf("Hipotenusa: %.2lf\n", sqrt(a*a + b*b));
+    int n = 4;
+    printf("Tabuada do 4:\n");
+    for(int i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", n, i, n*i);
+    }
     return 0;
 }
